@@ -1,0 +1,20 @@
+Function Main
+    declare integer array ps[3, 2]
+    declare integer i, sum
+    declare real ans
+
+    for i = 0 to 2
+        display"ป้อนรหัสนักเรียนคนที่ " & i + 1
+        input ps[i, 0]
+        display"ป้อนคะแนนของคนที่ " & i + 1
+        input ps[i, 1]
+    end
+
+    set sum = 0
+    for i = 0 to 2
+        set sum = sum + ps[i, 1]
+        set ans = sum / 3
+        display"รหัส " & ps[i, 0] & " ได้ " & ps[i, 1] & " คะแนน"
+    end
+    display"คะแนนเฉลี่ย = " & ans
+End

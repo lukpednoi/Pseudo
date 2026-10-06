@@ -1,0 +1,16 @@
+Function Main
+    declare integer N, M, ans, R, Z
+    display"ป้อนค่า N"
+    set ans = 0
+    set M = 1
+    set R = M
+
+    input N
+    set Z = N
+    while M <= N
+        set ans = ans + Z
+        set M = M + 1
+        set Z = Z - 1
+    end
+    display"ผลรวม " & R & " ถึง " & N & " = " & ans
+End
