@@ -1,0 +1,22 @@
+Function Main
+    declare integer score
+    declare string gread
+
+    display"ป้อนคะแนนรวม"
+    input score
+
+    if score > 79
+        set gread = "A"
+    else
+        if score > 60
+            set gread = "B"
+        else
+            if score > 40
+                set gread = "C"
+            else
+                set gread = "F"
+            end
+        end
+    end
+    display"ได้เกรด " & gread
+End
