@@ -1,0 +1,14 @@
+Function Main
+    declare integer score
+    declare string greade
+
+    display"ป้อนคะแนน"
+    input score
+    if score >= 50
+        set greade = "สอบผ่าน"
+    else
+        set greade = "สอบตก"
+    end
+    display"คะแนน " & score & " : " & greade
+
+End

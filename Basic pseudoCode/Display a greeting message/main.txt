@@ -1,0 +1,5 @@
+Function Main
+
+    display"สวัสดีชาวโลก"
+    display"ยินดีต้อนรับสู่ PseudoLab"
+End

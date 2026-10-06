@@ -1,0 +1,10 @@
+Function Main
+    declare integer number, i, ans
+
+    display"ป้อนแม่สูตรคูณ"
+    input number
+    for i = 1 to 12
+        set ans = number * i
+        display number & " x " & i &" = " & ans
+    end
+End

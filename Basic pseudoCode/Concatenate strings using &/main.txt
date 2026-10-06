@@ -1,0 +1,10 @@
+Function Main
+    declare string name
+    declare integer age
+
+    display"กรุณากรอกชื่อ"
+    input name
+    display"กรุณากรอกอายุ"
+    input age
+    display"สวัสดีคุณ " & name & " อายุ " & age & " ปี"
+End

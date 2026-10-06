@@ -1,0 +1,13 @@
+Function Main
+    declare integer number1, number2, ans
+    declare real ans2
+
+    display"ป้อนตัวเลขตัวที่ 1"
+    input number1
+    display"ป้อนตัวเลขตัวที่ 2"
+    input number2
+    set ans = number1 + number2
+    set ans2 = ans / 2
+    display"ผลรวม = " & ans
+    display"ค่าเฉลี่ย = " & ans2
+End
