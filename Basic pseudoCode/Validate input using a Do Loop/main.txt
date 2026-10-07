@@ -1,0 +1,9 @@
+Function Main
+    declare integer score
+
+    do
+        display"ป้อนคะแนน (0-100)"
+        input score
+    loop score < 0 or score > 100
+    display"คะแนนที่รับ = " & score
+End
